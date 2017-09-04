@@ -131,7 +131,7 @@ document.getElementById("seconds"));
 	});
 	$('.tab_3').click(function(){
 		$('.equip_text3').show();
-		$('.main_equip img').attr('src', 'img/equip_1.jpg');
+		$('.main_equip img').attr('src', 'img/equip_3.jpg');
 	});
 
 	$('.equip_exp1').click(function(){

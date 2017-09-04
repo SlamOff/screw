@@ -1,0 +1,406 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	.logo img {
+		max-width: 85px;
+	}
+	.desc {
+		padding-top: 5px;
+	}
+	.top_phone {
+		font-size: 1.4rem;
+	}
+	.top_btn {
+		padding-top: 10px;
+	}
+	h1 {
+		font-size: 4.5rem;
+	}
+	header:before {
+		height: 600px;
+		background-size: 125%;
+		background-position: -50px 0;
+	}
+	.year img {
+		width: 100%;
+		max-width: 470px;
+	}
+	.year .img_wrapper:before {
+		display: none;
+	}
+	.equip .tabs div {
+		max-width: 140px;
+	}
+	section h3 br {
+		display: none;
+	}
+	.share img {
+		max-width: 660px;
+	}
+	.advantage img {
+		width: 100%;
+		max-width: 550px;
+	}
+	.advantage h4 {
+		font-size: 2.2rem;
+	}
+	.advantage br {
+		display: none;
+	}
+	.share p br {
+		display: none;
+	}
+	.share2 img {
+		display: none;
+	}
+	.step img.step_dash {
+		max-width: 800px;
+	}
+	.contact_main {
+		padding: 5rem;
+	}
+	.adv_img:before {
+		display: none;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	footer .row div  {
+		text-align: center;
+	}
+	.made_by p,
+	.copyright p {
+		font-size: 16px;
+	}
+	header:before {
+		display: none;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	.main_head {
+		text-align: center;
+	}
+	.trigger {
+		text-align: left;
+	}
+	.year .row {
+		margin-bottom: 5rem;
+	}
+	* br {
+		display: none;
+	}
+	.equip .tabs div {
+		max-width: 100px;
+	}
+	section h3 {
+		font-size: 3rem;
+	}
+	.share img {
+		display: none;
+	}
+	.share, .share h3 {
+		text-align: center;
+	}
+	.share ul {
+		text-align: left;
+	}
+	.advantage {
+	
+	}
+	.adv_content {
+		padding-right: 0;
+	}
+	.review .next {
+		right: -50px;
+	}
+	.review .prev {
+		left: -50px;
+	}
+	.cert .next, .cert .prev {
+		top: auto;
+		bottom: -80px;
+	}
+	.cert .next {
+		right: 30px;
+	}
+	.cert .prev {
+		left: 30px;
+	}
+	.step_wrapper {
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: space-around;
+		-webkit-justify-content: space-around;
+		-ms-flex-pack: space-around;
+		justify-content: space-around;
+	}
+	.step_item {
+		margin-bottom: 4rem;
+	}
+	.step img.step_dash {
+		display: none;
+	}
+	.contact_main {
+		padding: 3rem;
+	}
+	.timer__item br {
+		display: block;
+	}
+	.share2 {
+		padding-top: 0;
+	}
+	.contact_main br, .top_phone br {
+		display: block;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.made_by {
+		text-align: center;
+	}
+	footer {
+		text-align: center;
+	}
+	.year img {
+		display: none;
+	}
+	.year {
+		text-align: center;
+	}
+	p {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;
+	}
+	.year .col-sm-6 {
+		width: 100%;
+	}
+	.equip .row {
+		display: block;
+	}
+	.equip ul li {
+		line-height: 3rem;
+	}
+	.main_equip {
+		text-align: center;
+	}
+	.main_equip img {
+		position: static;
+	}
+	.equip h4, .equip_exp {
+		text-align: center;
+	}
+	.equip_exp {
+		margin-bottom: 3rem;
+		margin-top: 2rem;
+	}
+	.opportunity {
+		text-align: center;
+	}
+	.opportunity .col-sm-4 {
+		margin-bottom: 5rem;
+	}
+	.opportunity_footer {
+		margin-top: 0;
+	}
+	.advantage {
+		text-align: center;
+	}
+	.adv_img {
+		text-align: center;
+	}
+	.advantage .col-sm-6 {
+		margin-bottom: 5rem;
+	}
+	.advantage .row {
+		margin-bottom: 0;
+	}
+	.advantage img {
+		margin-bottom: 3rem;
+	}
+	.share button {
+		margin-top: 0;
+	}
+	.share2 button {
+		margin-top: 3rem;
+	}
+	.video img {
+		width: 100%;
+	}
+	.review, .cert {
+		display: none;
+	}
+	.contact_main {
+		text-align: center;
+	}
+	.contact .map img {
+		position: static;
+		width: 100%;
+	}
+	.step {
+		padding-bottom: 0;
+	}
+	section h3 {
+		margin-bottom: 3rem;
+	}
+	.logo {
+		width: 33.3%;
+	}
+	.lang {
+		text-align: center;
+		width: 33.3%;
+	}
+	.top_phone {
+		width: 33.3%;
+		text-align: right;
+		font-size: 1.8rem;
+		line-height: 2.8rem;
+	}
+	.desc {
+		position: absolute;
+		width: 80%;
+		text-align: center;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: 120px;
+	}
+	.desc br {
+		display: block;
+	}
+	.top_head {
+		margin-bottom: 60px;
+	}
+	.brand {
+		display: none;
+	}
+	header {
+		-ms-background-size: cover;
+		background-size: cover;
+	}
+}
+@media only screen and (max-width : 600px) {
+	.lang {
+		width: 50%;
+		text-align: right;
+	}
+	.desc {
+		width: 100%;
+	}
+	.logo {
+		width: 50%;
+	}
+	.top_phone {
+		position: absolute;
+		width: 100%;
+		top: 170px;
+		text-align: center;
+	}
+	.top_head {
+		margin-bottom: 200px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.made_by p, .copyright p {
+		font-size: 14px;
+	}
+	.share .timer__item {
+		margin-right: 1rem;
+		width: 60px;
+		height: 60px;
+	}
+	.share .timer__item:last-of-type {
+		margin-right: 0;
+	}
+	h1 {
+		font-size: 2.8rem;
+	}
+	.trigger li {
+		line-height: 3.6rem;
+	}
+	section h3 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	section h4 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.equip ul li {
+		font-size: 1.6rem;
+		line-height: 2.6rem;
+	}
+	.equip {
+		padding: 0;
+	}
+	.equip .tabs div {
+		max-width: 90px;
+	}
+	.year {
+		padding-top: 20px;
+	}
+	.share p {
+		font-size: 1.6rem;
+	}
+	.share2 h3 {
+		font-size: 2.2rem;
+	}
+	.share2 p {
+		font-size: 1.8rem;
+	}
+	.video {
+		padding: 0;
+	}
+	.step_item {
+		width: 100%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width : 380px) {
+	.desc {
+		font-size: 1.2rem;
+	}
+	.form_wrapper {
+		padding: 40px 20px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
